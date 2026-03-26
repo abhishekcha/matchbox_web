@@ -18,3 +18,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 -create a vite +React application
 -remove a unnessary code and create a hello world
+install Tailwind CSS:
