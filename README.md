@@ -21,3 +21,8 @@ If you are developing a production application, we recommend using TypeScript wi
 install Tailwind CSS<br/>
 install daisy UI<br>
 Add Navbar component to App.jsx<br>
+Create a navbar.jsx seprate component.<br>
+intall react router dom.<br>
+create a BrowserRouter<br>
+create a Outlet in your body cmp<br>
+create a footer cmp.
