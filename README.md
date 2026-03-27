@@ -18,4 +18,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 -create a vite +React application<br/>
 -remove a unnessary code and create a helloworld<br/>
-install Tailwind CSS:
+install Tailwind CSS<br/>
+install daisy UI<br>
+Add Navbar component to App.jsx<br>
