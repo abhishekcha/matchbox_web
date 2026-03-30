@@ -18,11 +18,22 @@ If you are developing a production application, we recommend using TypeScript wi
 
 -create a vite +React application<br/>
 -remove a unnessary code and create a helloworld<br/>
-install Tailwind CSS<br/>
-install daisy UI<br>
-Add Navbar component to App.jsx<br>
-Create a navbar.jsx seprate component.<br>
-intall react router dom.<br>
-create a BrowserRouter<br>
-create a Outlet in your body cmp<br>
-create a footer cmp.
+-install Tailwind CSS<br/>
+-install daisy UI<br>
+-Add Navbar component to App.jsx<br>
+-Create a navbar.jsx seprate component.<br>
+-intall react router dom.<br>
+-create a BrowserRouter<br>
+-create a Outlet in your body cmp<br>
+-create a footer cmp.<br>
+-create a login page.<br>
+-install axios...<br>
+-CORS-- intall cors in backend=> add middleware to with configuration: origin, credentials:true<br>
+-whenever you are making API call so pass axios=>{withCredentials:true}<br>
+-install redux and redux toolkit using this cmd->npm install @reduxjs/toolkit react-redux<br>
+-documentation-https://redux.js.org/tutorials/quick-start<br>
+-install react-redux+@reduxjs/toolkit =>configureStore=>provider=>createSlice=>addReducer to store
+-add redux devtools in chrome<br>
+-Login and see if ur data is coming properly in the store<br>
+-navbar should update as soon as user login.<br>
+-restructure folder of project<br>
