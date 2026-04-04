@@ -37,3 +37,8 @@ If you are developing a production application, we recommend using TypeScript wi
 -Login and see if ur data is coming properly in the store<br>
 -navbar should update as soon as user login.<br>
 -restructure folder of project<br>
+-you should not be access other routes without 
+login<br>
+-if token is not present ,redirect user to login page<br>
+logout features <br>
+profile<br>
