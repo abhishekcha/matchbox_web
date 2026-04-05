@@ -94,21 +94,24 @@ const EditProfile = ({ user }) => {
                   <div className="label">
                     <span className="label-text">Gender</span>
                   </div>
-                  <input
-                    type="text"
+                  <select
                     value={gender}
-                    className="input input-bordered w-full max-w-xs"
+                    className="select select-bordered w-full max-w-xs"
                     onChange={(e) => setGender(e.target.value)}
-                  />
+                  >
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
                 </label>
                 <label className="from-control w-full max-w-xs my-4">
                   <div className="label">
                     <span className="label-text">Bio</span>
                   </div>
-                  <input
-                    type="text"
+                  <textarea
                     value={bio}
-                    className="input input-bordered w-full max-w-xs"
+                    className="textarea textarea-bordered w-full max-w-xs"
+                    rows={3}
                     onChange={(e) => setBio(e.target.value)}
                   />
                 </label>
