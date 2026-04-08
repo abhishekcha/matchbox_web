@@ -45,3 +45,9 @@ profile<br>
 -show toast message on save of profile<br>
 -see all my connection.<br>
 -see all my connection requests<br>
+-feature - Accept/Reject connection requests<br>
+-Remaining:
+-1.interested.ignored the user card from feed<br>
+-2.Signup New User<br>
+-3.E2E Testing.
+
