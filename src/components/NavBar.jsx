@@ -1,11 +1,12 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch} from "react-redux";
 import { Link, useNavigate } from "react-router";
 import { BASE_URl } from "../utils/constants";
 import axios from "axios";
 import { removeUser } from "../utils/userSlice";
 
 const NavBar = () => {
+  const dispatch=useDispatch();
   const user = useSelector((store) => store.user);
   const navigate=useNavigate();
   //console.log(user);
@@ -17,8 +18,10 @@ const NavBar = () => {
         { withCredentials: true },
       );
       dispatch(removeUser());
-      navigate("/login")
-    } catch (error) {}
+      return navigate("/login")
+    } catch (error) {
+
+    }
   };
   return (
     <div className="navbar bg-base-300">
@@ -50,10 +53,10 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Link>Settings</Link>
+              <Link to="/connections">Connections</Link>
             </li>
             <li>
-              <a onClick={handleLogout}>Logout</a>
+              <Link onClick={handleLogout}>Logout</Link>
               
             </li>
           </ul>
