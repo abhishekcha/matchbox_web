@@ -44,3 +44,4 @@ logout features <br>
 profile<br>
 -show toast message on save of profile<br>
 -see all my connection.<br>
+-see all my connection requests<br>
