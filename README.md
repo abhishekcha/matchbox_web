@@ -42,3 +42,5 @@ login<br>
 -if token is not present ,redirect user to login page<br>
 logout features <br>
 profile<br>
+-show toast message on save of profile<br>
+-see all my connection.<br>
